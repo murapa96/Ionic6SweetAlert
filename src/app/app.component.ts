@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import swal from 'sweetalert2'; // Importamos la librería de SweetAlert
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {}
+
+  fireAlert() {
+    swal.fire({
+      html: 'Hola Mundo!',
+    });
+  }
 }
