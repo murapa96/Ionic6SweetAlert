@@ -1,0 +1,7 @@
+{
+  "name": "Ionic6SweetAlert",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
